@@ -1,0 +1,14 @@
+Korean Restaurant;4.5;KoreanFood;123-456-7890;Kimchi,Bibimbap,Bulgogi;10.5,12.0,15.0;Seoul, South Korea
+Pizza Place;4.2;Pizza;987-654-3210;Pepperoni Pizza,Hawaiian Pizza,Veggie Pizza;8.5,9.0,10.0;New York, USA
+Chinese Delight;4.0;ChineseFood;111-222-3333;Sweet and Sour Chicken,Fried Rice,Egg Rolls;9.0,7.5,4.5;Beijing, China
+Dessert Heaven;4.8;Dessert;555-666-7777;Chocolate Cake,Strawberry Cheesecake,Macarons;6.0,5.5,2.5;Paris, France
+Fast Bite;4.3;FastFood;999-888-7777;Cheeseburger,French Fries,Chicken Nuggets;5.0,3.5,4.0;Los Angeles, USA
+Asian Fusion;4.6;AsianFood;777-888-9999;Sushi,Pad Thai,Dim Sum;12.0,10.0,8.0;Tokyo, Japan
+Late Night Grub;4.1;LateNightFood;333-444-5555;Pizza Slice,Burrito,Fried Chicken;3.0,6.5,4.5;London, UK
+Seafood Galore;4.4;Seafood;222-333-4444;Shrimp Scampi,Grilled Salmon,Lobster Roll;15.0,18.0,20.0;Sydney, Australia
+Soup Spot;4.7;Soup;666-777-8888;Tom Yum Soup,Clam Chowder,Miso Soup;7.0,6.5,8.0;Toronto, Canada
+Street Eats;4.2;StreetFood;444-555-6666;Tacos,Banh Mi,Hot Dog;4.5,3.0,2.5;Mexico City, Mexico
+Lunch Box Express;4.9;LunchBox;888-999-0000;Bento Box,Sandwich,Sushi Roll;10.0,5.0,12.0;Osaka, Japan
+Stew Central;4.5;Stew;555-444-3333;Beef Stew,Chicken Stew,Vegetarian Stew;11.0,9.0,8.0;Berlin, Germany
+Chicken Palace;4.3;Chicken;777-666-5555;Fried Chicken,Grilled Chicken,Chicken Wings;9.0,8.5,7.0;Atlanta, USA
+Western Comfort;4.6;WesternFood;111-999-8888;Steak,Burger,Ribs;20.0,15.0,18.0;Paris, France

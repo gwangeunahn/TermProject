@@ -1,0 +1,61 @@
+AsianFood 아시안
+Chicken 치킨
+ChineseFood 중국집
+Dessert 디저트
+FastFood 패스트푸드
+JapaneseFood 일식
+KoreanFood 한식
+LateNightFood 야식
+LunchBox 도시락
+Pizza 피자
+Seafood 해산물
+Soup 탕
+Stew 찜
+StreetFood 분식
+WesternFood 양식
+
+case "아시안":
+                        restaurant = new AsianFood(name, rating, phone, menu, prices, location);
+                        break;
+                    case "치킨":
+                        restaurant = new Chicken(name, rating, phone, menu, prices, location);
+                        break;
+                    case "중국집":
+                        restaurant = new ChineseFood(name, rating, phone, menu, prices, location);
+                        break;
+                    case "디저트":
+                        restaurant = new Dessert(name, rating, phone, menu, prices, location);
+                        break;
+                    case "패스트푸드":
+                        restaurant = new FastFood(name, rating, phone, menu, prices, location);
+                        break;
+                    case "일식":
+                        restaurant = new JapaneseFood(name, rating, phone, menu, prices, location);
+                        break;
+                    case "한식":
+                        restaurant = new KoreanFood(name, rating, phone, menu, prices, location);
+                        break;
+                    case "야식":
+                        restaurant = new LateNightFood(name, rating, phone, menu, prices, location);
+                        break;
+                    case "도시락":
+                        restaurant = new LunchBox(name, rating, phone, menu, prices, location);
+                        break;
+                    case "피자":
+                        restaurant = new Pizza(name, rating, phone, menu, prices, location);
+                        break;
+                    case "해산물":
+                        restaurant = new Seafood(name, rating, phone, menu, prices, location);
+                        break;
+                    case "탕":
+                        restaurant = new Soup(name, rating, phone, menu, prices, location);
+                        break;
+                    case "찜":
+                        restaurant = new Stew(name, rating, phone, menu, prices, location);
+                        break;
+                    case "분식":
+                        restaurant = new StreetFood(name, rating, phone, menu, prices, location);
+                        break;
+                    case "양식":
+                        restaurant = new WesternFood(name, rating, phone, menu, prices, location);
+                        break;
