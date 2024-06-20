@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class DeliveryAppGUI {
+public class DeliveryAppGUI implements DCRUD {
     private JFrame frame;
     private CardLayout cardLayout;
     private JPanel mainPanel;
@@ -116,7 +116,7 @@ public class DeliveryAppGUI {
         mainPanel.add(searchPanel, "SearchScreen");
     }
 
-    private void searchRestaurant(String keyword) {
+    public void searchRestaurant(String keyword) {
         restaurantListModel.clear();
         for (Restaurant restaurant : deliveryApp.getRestaurants()) {
             if (restaurant.getName().contains(keyword)) {
@@ -154,7 +154,7 @@ public class DeliveryAppGUI {
         return homeButtonPanel;
     }
 
-    private void addRestaurant() {
+    public void addRestaurant() {
         JTextField categoryField = new JTextField();
         JTextField nameField = new JTextField();
         JTextField ratingField = new JTextField();
@@ -236,7 +236,7 @@ public class DeliveryAppGUI {
         }
     }
 
-    private void deleteRestaurant() {
+    public void deleteRestaurant() {
         JTextField searchField = new JTextField();
         Object[] message = { "삭제할 음식점 이름:", searchField };
         int option = JOptionPane.showConfirmDialog(frame, message, "음식점 삭제", JOptionPane.OK_CANCEL_OPTION);
@@ -246,7 +246,7 @@ public class DeliveryAppGUI {
         }
     }
 
-    private void updateRestaurant() {
+    public void updateRestaurant() {
         JTextField searchField = new JTextField();
         Object[] searchMessage = { "수정할 음식점 이름:", searchField };
         int searchOption = JOptionPane.showConfirmDialog(frame, searchMessage, "음식점 수정", JOptionPane.OK_CANCEL_OPTION);
@@ -293,7 +293,48 @@ public class DeliveryAppGUI {
                         case "아시안":
                             updatedRestaurant = new AsianFood(newName, rating, phone, menu, prices, location);
                             break;
-                        // 다른 카테고리도 필요에 따라 추가
+                        case "치킨":
+                            updatedRestaurant = new Chicken(name, rating, phone, menu, prices, location);
+                            break;
+                        case "중국집":
+                            updatedRestaurant = new ChineseFood(name, rating, phone, menu, prices, location);
+                            break;
+                        case "디저트":
+                            updatedRestaurant = new Dessert(name, rating, phone, menu, prices, location);
+                            break;
+                        case "패스트푸드":
+                            updatedRestaurant = new FastFood(name, rating, phone, menu, prices, location);
+                            break;
+                        case "일식":
+                            updatedRestaurant = new JapaneseFood(name, rating, phone, menu, prices, location);
+                            break;
+                        case "한식":
+                            updatedRestaurant = new KoreanFood(name, rating, phone, menu, prices, location);
+                            break;
+                        case "야식":
+                            updatedRestaurant = new LateNightFood(name, rating, phone, menu, prices, location);
+                            break;
+                        case "도시락":
+                            updatedRestaurant = new LunchBox(name, rating, phone, menu, prices, location);
+                            break;
+                        case "피자":
+                            updatedRestaurant = new Pizza(name, rating, phone, menu, prices, location);
+                            break;
+                        case "해산물":
+                            updatedRestaurant = new Seafood(name, rating, phone, menu, prices, location);
+                            break;
+                        case "탕":
+                            updatedRestaurant = new Soup(name, rating, phone, menu, prices, location);
+                            break;
+                        case "찜":
+                            updatedRestaurant = new Stew(name, rating, phone, menu, prices, location);
+                            break;
+                        case "분식":
+                            updatedRestaurant = new StreetFood(name, rating, phone, menu, prices, location);
+                            break;
+                        case "양식":
+                            updatedRestaurant = new WesternFood(name, rating, phone, menu, prices, location);
+                            break;
                         default:
                             updatedRestaurant = new Restaurant(newName, rating, category, phone, menu, prices, location);
                     }

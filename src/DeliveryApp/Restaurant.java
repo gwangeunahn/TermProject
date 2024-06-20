@@ -51,14 +51,12 @@ public class Restaurant {
 
     @Override
     public String toString() {
-        return "Restaurant{" +
-                "name='" + name + '\'' +
-                ", rating=" + rating +
-                ", category='" + category + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", menu=" + menu +
-                ", prices=" + prices +
-                ", location='" + location + '\'' +
-                '}';
+        return  "name='" + name + '\'' + "\n" + 
+                ", rating=" + rating + "\n" +
+                ", category='" + category + '\'' + "\n" +
+                ", phoneNumber='" + phoneNumber + '\'' + "\n" +
+                ", menu=" + menu + "\n" +
+                ", prices=" + prices + "\n" +
+                ", location='" + location + '\'' + "\n";
     }
 }
