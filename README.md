@@ -64,4 +64,6 @@ User's guide: how to use your program :
 
 <img src='https://github.com/gwangeunahn/TermProject/blob/main/src/DeliveryApp/screenshots/Setting_Update.png?raw=true'>
 
-4-4. Save file
+4-4. Save file (Click Save Button)
+
+<img src='https://github.com/gwangeunahn/TermProject/blob/main/src/DeliveryApp/screenshots/Setting.png?raw=true'>
